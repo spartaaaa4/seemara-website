@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Seemara builds custom AI solutions for Indian businesses, including marketing systems, support agents, WhatsApp automations, sales follow-up, and internal knowledge agents." />
-    <title>Seemara | Custom AI solutions for Indian businesses</title>
+    <meta name="description" content="Seemara builds custom AI systems for Indian businesses: WhatsApp lead agents, AI marketing engines, support agents, sales follow-up, dashboards, and workflow automation." />
+    <title>Seemara | Custom AI systems for Indian businesses</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -18,134 +18,191 @@
         <span>Seemara</span>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#solutions" data-i18n="nav.solutions">Solutions</a>
-        <a href="#industries" data-i18n="nav.industries">Industries</a>
-        <a href="./kaizen.html">Kaizen</a>
+        <a href="#systems" data-i18n="nav.solutions">Solutions</a>
+        <a href="#kaizen">Kaizen</a>
+        <a href="#start" data-i18n="nav.start">Start here</a>
         <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language">हिंदी</button>
-        <a class="button button-small button-dark" href="mailto:anuj@seemara.com" data-i18n="nav.contact">Get in touch</a>
+        <a class="button button-small button-saffron" href="mailto:anuj@seemara.com" data-i18n="nav.contact">Get in touch</a>
       </nav>
       <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
     </header>
 
     <main id="main">
-      <section class="hero hero-home">
-        <img class="hero-image" src="./assets/indian-sme-ai-hero.jpg" alt="Indian business owner reviewing customer chats, catalog assets, and growth analytics" width="1798" height="875" />
-        <div class="hero-shade"></div>
+      <section class="hero">
+        <img class="hero-image" src="./assets/seemara-ai-command-center.jpg" alt="AI command center for Indian business workflows" width="1798" height="875" />
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-          <p class="eyebrow light" data-i18n="home.hero.eyebrow">AI systems for Indian SMEs</p>
-          <h1 data-i18n="home.hero.title">Custom AI solutions for businesses that want to grow faster.</h1>
-          <p class="hero-copy" data-i18n="home.hero.copy">Seemara builds practical AI products for Indian businesses: marketing systems, WhatsApp automations, support agents, sales follow-up, internal copilots, and custom workflows that fit how your team already works.</p>
+          <p class="eyebrow light" data-i18n="home.hero.eyebrow">AI systems for Indian businesses</p>
+          <h1 data-i18n="home.hero.title">Custom AI systems for Indian businesses.</h1>
+          <p class="hero-copy" data-i18n="home.hero.copy">Seemara builds custom AI workflows for Indian SMEs so your team can follow up faster, answer customers better, create marketing quicker, and run operations with less manual work.</p>
           <div class="hero-actions">
-            <a class="button button-light" href="mailto:anuj@seemara.com" data-i18n="home.hero.cta">Email us your workflow <span aria-hidden="true">→</span></a>
-            <a class="text-link light" href="#solutions" data-i18n="home.hero.secondary">See what we build <span aria-hidden="true">↓</span></a>
+            <a class="button button-saffron" href="mailto:anuj@seemara.com" data-i18n="home.hero.cta">Tell us your workflow <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="#systems" data-i18n="home.hero.secondary">See systems we build</a>
           </div>
         </div>
-        <div class="buyer-proof">
-          <div><strong data-i18n="home.proof.one.title">For Indian SMEs</strong><span data-i18n="home.proof.one.copy">D2C, clinics, restaurants, retail, agencies, education, real estate</span></div>
-          <div><strong data-i18n="home.proof.two.title">Built around your context</strong><span data-i18n="home.proof.two.copy">Your products, customers, team, tools, and language</span></div>
-        </div>
-      </section>
-
-      <section class="section buyer-section">
-        <div class="section-label" data-i18n="home.clarity.label">What Seemara does</div>
-        <div class="buyer-grid">
-          <h2 data-i18n="home.clarity.title">We turn one messy business workflow into a working AI system.</h2>
-          <div class="prose">
-            <p data-i18n="home.clarity.p1">You do not need to know prompts, models, or automation tools. Tell us where your team loses time, misses leads, repeats answers, or struggles to create content.</p>
-            <p data-i18n="home.clarity.p2">We understand the workflow, build the AI layer, connect it to your existing tools, and keep improving it with real feedback.</p>
+        <div class="hero-console" aria-label="Seemara AI system examples">
+          <div class="console-card">
+            <span class="console-icon">↗</span>
+            <strong data-i18n="home.console.leads">Lead follow-up</strong>
+            <small data-i18n="home.console.leads.detail">Auto-qualify and remind</small>
           </div>
-        </div>
-      </section>
-
-      <section id="solutions" class="section solution-section">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow" data-i18n="home.solutions.eyebrow">Solutions we can build</p>
-            <h2 data-i18n="home.solutions.title">AI that solves a business problem, not a demo problem.</h2>
+          <div class="console-card">
+            <span class="console-icon">●</span>
+            <strong data-i18n="home.console.marketing">AI marketing</strong>
+            <small data-i18n="home.console.marketing.detail">Ads, captions, posters</small>
           </div>
-          <p data-i18n="home.solutions.copy">Every solution is bespoke, but these are the use cases Indian SMEs usually need first.</p>
-        </div>
-        <div class="solution-grid">
-          <article><span>01</span><h3 data-i18n="home.solution.marketing.title">AI marketing engine</h3><p data-i18n="home.solution.marketing.copy">Generate campaign ideas, scripts, posters, captions, product ads, and Meta-ready copy from your brand assets.</p></article>
-          <article><span>02</span><h3 data-i18n="home.solution.support.title">Customer support agent</h3><p data-i18n="home.solution.support.copy">Answer FAQs, product questions, appointment queries, pricing questions, and order-related messages with business-specific context.</p></article>
-          <article><span>03</span><h3 data-i18n="home.solution.whatsapp.title">WhatsApp automation</h3><p data-i18n="home.solution.whatsapp.copy">Qualify leads, collect requirements, send follow-ups, route conversations, and reduce manual back-and-forth.</p></article>
-          <article><span>04</span><h3 data-i18n="home.solution.sales.title">Sales follow-up system</h3><p data-i18n="home.solution.sales.copy">Convert inquiries into next steps with better lead scoring, reminders, proposal drafts, and personalized follow-ups.</p></article>
-          <article><span>05</span><h3 data-i18n="home.solution.knowledge.title">Internal knowledge agent</h3><p data-i18n="home.solution.knowledge.copy">Give teams a single place to ask about products, processes, policies, training, and customer handling.</p></article>
-          <article><span>06</span><h3 data-i18n="home.solution.catalog.title">Catalog and product visuals</h3><p data-i18n="home.solution.catalog.copy">Turn product photos, catalogs, and old assets into cleaner product listings, catalog images, and creative variants.</p></article>
-        </div>
-      </section>
-
-      <section id="industries" class="section industry-section">
-        <div class="section-label" data-i18n="home.industries.label">Who this is for</div>
-        <div class="industry-layout">
-          <h2 data-i18n="home.industries.title">Built for businesses where every lead, message, and creative matters.</h2>
-          <div class="industry-list">
-            <span data-i18n="home.industry.d2c">D2C and ecommerce brands</span>
-            <span data-i18n="home.industry.restaurants">Restaurants and cloud kitchens</span>
-            <span data-i18n="home.industry.clinics">Clinics and wellness centers</span>
-            <span data-i18n="home.industry.retail">Retail and local services</span>
-            <span data-i18n="home.industry.agencies">Agencies and consultants</span>
-            <span data-i18n="home.industry.education">Coaching and education businesses</span>
-            <span data-i18n="home.industry.realestate">Real estate and brokers</span>
-            <span data-i18n="home.industry.salon">Salons, spas, and fitness studios</span>
+          <div class="console-card">
+            <span class="console-icon">?</span>
+            <strong data-i18n="home.console.support">Support agent</strong>
+            <small data-i18n="home.console.support.detail">Answers with your context</small>
           </div>
         </div>
       </section>
 
-      <section class="section process-section">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow" data-i18n="home.process.eyebrow">How we work</p>
-            <h2 data-i18n="home.process.title">Start with one workflow. Prove value fast.</h2>
-          </div>
-          <p data-i18n="home.process.copy">We do not begin with a giant transformation project. We pick one high-impact workflow, ship a working version, then expand from there.</p>
+      <section class="snap-section">
+        <div class="snap-item">
+          <span data-i18n="home.snap.one.label">For</span>
+          <strong data-i18n="home.snap.one.value">D2C, clinics, restaurants, retail, agencies</strong>
         </div>
-        <ol class="process-list">
-          <li><span>01</span><div><h3 data-i18n="home.process.one.title">Map the workflow</h3><p data-i18n="home.process.one.copy">We understand your current process, tools, customers, team, and success metric.</p></div></li>
-          <li><span>02</span><div><h3 data-i18n="home.process.two.title">Build a focused prototype</h3><p data-i18n="home.process.two.copy">You see a real working flow before we over-invest in anything complicated.</p></div></li>
-          <li><span>03</span><div><h3 data-i18n="home.process.three.title">Connect it to your tools</h3><p data-i18n="home.process.three.copy">Website, WhatsApp, CRM, sheets, ecommerce, ads, documents, or internal systems.</p></div></li>
-          <li><span>04</span><div><h3 data-i18n="home.process.four.title">Improve with feedback</h3><p data-i18n="home.process.four.copy">The system learns your preferences, exceptions, and business reality over time.</p></div></li>
-        </ol>
-      </section>
-
-      <section class="kaizen-feature section">
-        <div class="kaizen-panel">
-          <div class="kaizen-copy">
-            <p class="eyebrow light" data-i18n="home.kaizen.eyebrow">Featured product</p>
-            <div class="kaizen-wordmark"><span class="kaizen-symbol">K</span> Kaizen</div>
-            <h2 data-i18n="home.kaizen.title">Turn brand assets into Meta-ready ads.</h2>
-            <p data-i18n="home.kaizen.copy">Kaizen helps D2C and visual SME brands upload websites, catalogs, product photos, reels, PDFs, logos, and old campaigns, then generate brand-consistent videos, posters, captions, scripts, and ad copy.</p>
-            <a class="button button-light" href="./kaizen.html" data-i18n="home.kaizen.cta">Explore Kaizen <span aria-hidden="true">→</span></a>
-          </div>
-          <div class="workflow-board" aria-label="Kaizen workflow">
-            <div><strong data-i18n="home.board.input.title">Inputs</strong><span data-i18n="home.board.input.copy">Website, catalog, photos, reels, PDFs, colors</span></div>
-            <div><strong data-i18n="home.board.memory.title">Brand Memory</strong><span data-i18n="home.board.memory.copy">Products, voice, audience, visual style, offers</span></div>
-            <div><strong data-i18n="home.board.output.title">Outputs</strong><span data-i18n="home.board.output.copy">Videos, posters, scripts, captions, Meta copy</span></div>
-          </div>
+        <div class="snap-item">
+          <span data-i18n="home.snap.two.label">We build</span>
+          <strong data-i18n="home.snap.two.value">AI agents, automations, dashboards and creative systems</strong>
+        </div>
+        <div class="snap-item">
+          <span data-i18n="home.snap.three.label">Start with</span>
+          <strong data-i18n="home.snap.three.value">One painful workflow, not a giant transformation project</strong>
         </div>
       </section>
 
-      <section class="section start-section">
-        <p class="eyebrow" data-i18n="home.start.eyebrow">Good first projects</p>
-        <h2 data-i18n="home.start.title">Not sure where to start? Start here.</h2>
+      <section id="systems" class="section systems-section">
+        <div class="section-kicker" data-i18n="home.systems.kicker">What we can build</div>
+        <div class="section-header">
+          <h2 data-i18n="home.systems.title">Six AI systems Indian businesses ask for first.</h2>
+          <p data-i18n="home.systems.copy">Each one can start as a small prototype and grow into a deeper operating layer for your team.</p>
+        </div>
+        <div class="systems-grid">
+          <article class="system-card tall">
+            <div class="mock-phone">
+              <div class="phone-bar"></div>
+              <div class="chat-bubble left"></div>
+              <div class="chat-bubble right"></div>
+              <div class="chat-bubble left short"></div>
+              <div class="status-pill">Qualified lead</div>
+            </div>
+            <div>
+              <span>01</span>
+              <h3 data-i18n="home.system.whatsapp">WhatsApp lead agent</h3>
+              <p data-i18n="home.system.whatsapp.copy">Collect requirements, qualify leads, answer basics, and nudge follow-ups automatically.</p>
+            </div>
+          </article>
+          <article class="system-card">
+            <div class="mini-dashboard">
+              <span></span><span></span><span></span>
+              <div class="bar wide"></div><div class="bar"></div><div class="bar mid"></div>
+            </div>
+            <span>02</span>
+            <h3 data-i18n="home.system.sales">Sales follow-up system</h3>
+            <p data-i18n="home.system.sales.copy">Lead scoring, reminders, proposal drafts and personalized follow-ups.</p>
+          </article>
+          <article class="system-card">
+            <div class="ad-preview">
+              <div></div><div></div><div></div>
+            </div>
+            <span>03</span>
+            <h3 data-i18n="home.system.marketing">AI marketing engine</h3>
+            <p data-i18n="home.system.marketing.copy">Campaign concepts, scripts, posters, captions and Meta-ready ad copy.</p>
+          </article>
+          <article class="system-card">
+            <div class="support-visual"><span>FAQ</span><span>Order</span><span>Price</span><span>Booking</span></div>
+            <span>04</span>
+            <h3 data-i18n="home.system.support">Customer support agent</h3>
+            <p data-i18n="home.system.support.copy">Answer customer questions using your products, policies and business rules.</p>
+          </article>
+          <article class="system-card">
+            <div class="catalog-visual"><div></div><div></div><div></div><div></div></div>
+            <span>05</span>
+            <h3 data-i18n="home.system.catalog">Catalog and product visuals</h3>
+            <p data-i18n="home.system.catalog.copy">Create product listings, catalog images, offer creatives and content variants.</p>
+          </article>
+          <article class="system-card wide">
+            <div class="knowledge-visual"><span>Policies</span><span>Training</span><span>Products</span><span>Scripts</span><strong>Team AI</strong></div>
+            <span>06</span>
+            <h3 data-i18n="home.system.knowledge">Internal knowledge agent</h3>
+            <p data-i18n="home.system.knowledge.copy">A single place for your team to ask about processes, products, training and customer handling.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section workflow-section">
+        <div class="section-kicker" data-i18n="home.workflow.kicker">How a project feels</div>
+        <div class="before-after">
+          <div class="before-panel">
+            <h2 data-i18n="home.before.title">Before Seemara</h2>
+            <ul>
+              <li data-i18n="home.before.one">Leads sit in WhatsApp and spreadsheets.</li>
+              <li data-i18n="home.before.two">Team repeats the same answers all day.</li>
+              <li data-i18n="home.before.three">Marketing needs fresh creatives every week.</li>
+              <li data-i18n="home.before.four">Business context lives in too many places.</li>
+            </ul>
+          </div>
+          <div class="after-panel">
+            <h2 data-i18n="home.after.title">After Seemara</h2>
+            <div class="flow-map">
+              <span>WhatsApp</span><span>Catalog</span><span>CRM</span><strong>AI workflow</strong><span>Follow-up</span><span>Ads</span><span>Support</span>
+            </div>
+            <p data-i18n="home.after.copy">One focused AI workflow connects your tools, remembers your business context and removes repeated manual work.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="kaizen" class="section kaizen-showcase">
+        <div class="kaizen-copy">
+          <div class="section-kicker light" data-i18n="home.kaizen.kicker">Featured product</div>
+          <h2 data-i18n="home.kaizen.title">Kaizen turns brand assets into Meta-ready ads.</h2>
+          <p data-i18n="home.kaizen.copy">Upload your website, catalog, product photos, reels, PDFs and brand colors. Kaizen learns your brand, creates one sample, takes feedback and generates the full creative package.</p>
+          <a class="button button-saffron" href="./kaizen.html" data-i18n="home.kaizen.cta">Open Kaizen page <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="kaizen-lab" aria-label="Kaizen creative generation mockup">
+          <div class="lab-column">
+            <strong>Inputs</strong>
+            <span>Website</span><span>Product photos</span><span>Old ads</span><span>Brand colors</span>
+          </div>
+          <div class="lab-core">Brand<br />Memory</div>
+          <div class="lab-output">
+            <div class="creative-thumb"></div>
+            <strong>15s reel script</strong>
+            <span>Poster prompt</span>
+            <span>Caption + Meta copy</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="start" class="section start-section">
+        <div class="section-kicker" data-i18n="home.start.kicker">Start here</div>
+        <h2 data-i18n="home.start.title">Pick one workflow. We will make it real.</h2>
         <div class="starter-grid">
-          <article><h3 data-i18n="home.start.one.title">“We get leads but don’t follow up well.”</h3><p data-i18n="home.start.one.copy">Build a lead qualification and follow-up agent.</p></article>
-          <article><h3 data-i18n="home.start.two.title">“Our team answers the same questions daily.”</h3><p data-i18n="home.start.two.copy">Build a support or internal knowledge agent.</p></article>
-          <article><h3 data-i18n="home.start.three.title">“We need fresh ads every week.”</h3><p data-i18n="home.start.three.copy">Build a marketing creative system like Kaizen.</p></article>
+          <a href="mailto:anuj@seemara.com?subject=AI%20lead%20follow-up%20system">
+            <span>01</span><strong data-i18n="home.start.leads">“We miss or delay lead follow-ups.”</strong>
+          </a>
+          <a href="mailto:anuj@seemara.com?subject=AI%20support%20agent">
+            <span>02</span><strong data-i18n="home.start.support">“Our team answers the same questions daily.”</strong>
+          </a>
+          <a href="mailto:anuj@seemara.com?subject=AI%20marketing%20engine">
+            <span>03</span><strong data-i18n="home.start.ads">“We need better ads and content every week.”</strong>
+          </a>
         </div>
       </section>
 
       <section class="contact-section">
-        <p class="eyebrow" data-i18n="home.contact.eyebrow">Let’s talk</p>
-        <h2 data-i18n="home.contact.title">Tell us one workflow you want to improve.</h2>
-        <p data-i18n="home.contact.copy">Send a short note about your business and the problem. We will help you shape the first AI solution worth building.</p>
+        <p class="eyebrow" data-i18n="home.contact.kicker">Let’s build</p>
+        <h2 data-i18n="home.contact.title">Send us one workflow you want to automate or improve.</h2>
         <a class="button button-dark" href="mailto:anuj@seemara.com">anuj@seemara.com <span aria-hidden="true">→</span></a>
       </section>
     </main>
 
     <footer class="site-footer">
       <a class="brand" href="./index.html"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>Seemara</span></a>
-      <p data-i18n="footer.copy">Custom AI solutions for Indian businesses.</p>
+      <p data-i18n="footer.copy">Custom AI systems for Indian businesses.</p>
       <p>© <span data-year></span> Seemara</p>
     </footer>
     <script src="./script.js"></script>
