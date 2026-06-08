@@ -162,12 +162,25 @@ h1, h2 { font-family: var(--serif); letter-spacing: 0; }
 .memory-card small { color: var(--saffron-2); font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
 .memory-card strong { display: block; margin: 14px 0 12px; font-family: var(--serif); font-size: 38px; line-height: 1; }
 .memory-card p { color: var(--muted); }
+.goal-strip { display: grid; grid-template-columns: 90px 1fr; gap: 10px; align-items: center; margin-bottom: 14px; padding: 16px; border: 1px solid rgba(240,173,61,.25); border-radius: 14px; background: rgba(240,173,61,.1); }
+.goal-strip strong { color: var(--saffron-2); font-size: 12px; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
+.goal-strip span { color: white; font-weight: 900; }
 .output-card span { display: block; margin-top: 8px; color: var(--muted); }
 .output-card { padding: 20px; border: 1px solid var(--line); border-radius: 14px; background: rgba(255,255,255,.05); }
 .problem-band { background: var(--paper); color: var(--ink); }
 .problem-grid, .outputs-grid { display: grid; grid-template-columns: 1fr .72fr; gap: clamp(32px, 7vw, 100px); }
 .problem-grid h2, .outputs-grid h2 { margin: 0; font-size: clamp(40px, 5.6vw, 76px); line-height: 1; }
 .light-prose, .prose { color: #4d574f; font-size: 18px; }
+.pain-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 48px; }
+.pain-grid article { min-height: 230px; padding: 20px; border: 1px solid var(--dark-line); border-radius: var(--radius); background: white; }
+.pain-grid span, .goal-grid span { display: inline-flex; width: 34px; height: 34px; align-items: center; justify-content: center; margin-bottom: 28px; border-radius: 50%; background: var(--ink); color: var(--saffron); font-size: 12px; font-weight: 900; }
+.pain-grid strong { display: block; margin-bottom: 10px; font-size: 20px; line-height: 1.1; }
+.pain-grid p { margin: 0; color: #4d574f; }
+.goals-section { background: #0b0f0d; }
+.goal-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.goal-grid article { min-height: 320px; padding: 22px; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(180deg, #17211c, #101713); }
+.goal-grid h3 { margin: 0 0 12px; font-family: var(--serif); font-size: 30px; line-height: 1.04; }
+.goal-grid p { margin: 0; color: var(--muted); }
 .kaizen-workflow-section { background: #101713; }
 .kaizen-steps { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; }
 .kaizen-steps article { min-height: 280px; padding: 22px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); }
@@ -196,7 +209,7 @@ html[lang="hi"] .hero h1 { max-width: 940px; font-size: clamp(40px,5.7vw,78px); 
   .systems-grid { grid-template-columns: repeat(2,1fr); }
   .system-card.tall, .system-card.wide { grid-column: auto; grid-row: auto; }
   .kaizen-lab { grid-template-columns: 1fr; }
-  .kaizen-steps, .starter-grid { grid-template-columns: repeat(2,1fr); }
+  .pain-grid, .kaizen-steps, .goal-grid, .starter-grid { grid-template-columns: repeat(2,1fr); }
 }
 
 @media (max-width: 680px) {
@@ -209,11 +222,12 @@ html[lang="hi"] .hero h1 { max-width: 940px; font-size: clamp(40px,5.7vw,78px); 
   .console-card small { display: none; }
   .snap-item { border-right: 0; border-bottom: 1px solid var(--line); }
   .section { padding: 70px 18px; }
-  .section-header h2, .before-panel h2, .after-panel h2, .kaizen-copy h2, .start-section h2, .contact-section h2, .problem-grid h2, .outputs-grid h2, .fit-section h2, .beyond-section h2 { font-size: 40px; }
-  .systems-grid, .kaizen-steps, .starter-grid { grid-template-columns: 1fr; }
+  .section-header h2, .before-panel h2, .after-panel h2, .kaizen-copy h2, .start-section h2, .contact-section h2, .problem-grid h2, .outputs-grid h2, .fit-section h2, .beyond-section h2, .goals-section h2 { font-size: 40px; }
+  .systems-grid, .pain-grid, .kaizen-steps, .goal-grid, .starter-grid { grid-template-columns: 1fr; }
   .flow-map { grid-template-columns: 1fr; }
   .flow-map strong { grid-column: auto; }
   .kaizen-product-hero h2 { font-size: 44px; }
+  .goal-strip { grid-template-columns: 1fr; }
   .output-list div { flex-direction: column; gap: 4px; }
   .output-list small { text-align: left; }
   .site-footer { display: grid; }
