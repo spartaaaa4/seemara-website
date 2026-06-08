@@ -2,27 +2,29 @@
 
 ## Goal
 
-Create a polished public website for Seemara, a premium, warm, human AI studio that builds bespoke AI solutions for small and medium businesses.
+Create a polished public website for Seemara, a premium, warm, human AI studio that builds bespoke AI solutions for Indian small and medium businesses.
 
 ## Positioning
 
-Seemara should feel like a thoughtful studio that happens to be deeply technical. The site should avoid generic AI consultancy language and instead emphasize business context, useful workflows, careful integration, and long-term partnership.
+Seemara should feel like a thoughtful studio that happens to be deeply technical. The site should avoid generic AI consultancy language and instead emphasize concrete business outcomes for Indian SMEs: lead follow-up, WhatsApp automation, marketing systems, support agents, internal knowledge, catalog workflows, careful integration, and long-term partnership.
 
 ## Pages
 
 ### Homepage
 
-- Seemara-first hero with a clear promise and email CTA
+- Seemara-first hero with a clear promise for Indian businesses and email CTA
+- Concrete solution categories and who they are for
 - Explanation of bespoke AI solutions and why business context matters
 - Engagement process: understand, build, integrate, improve
 - Featured solution: Kaizen
 - Future solution categories
 - Strong contact section linking to `mailto:anuj@seemara.com`
+- English/Hindi language toggle
 
 ### Kaizen
 
 - Kaizen as Seemara's first product proof
-- The problem of fragmented organizational context
+- Practical product page for turning brand assets into Meta-ready ads
 - Brand Memory, Product / Offer Catalog, and specialized agents
 - Marketing Agent workflow with sample-first feedback
 - Current direction and future organization-led agents

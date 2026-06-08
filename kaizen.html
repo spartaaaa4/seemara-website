@@ -3,123 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Kaizen is Seemara's context layer and agent workspace for organizations, starting with brand-consistent marketing creative production." />
-    <title>Kaizen by Seemara | Context-aware agents for organizations</title>
+    <meta name="description" content="Kaizen helps brands turn websites, catalogs, product photos, reels, PDFs, and campaigns into Meta-ready videos, posters, captions, scripts, and ad copy." />
+    <title>Kaizen by Seemara | Brand assets to Meta-ready ads</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="kaizen-page">
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
+    <header class="site-header solid-header">
       <a class="brand" href="./index.html" aria-label="Seemara home">
         <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
         <span>Seemara</span>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="./index.html#approach">Approach</a>
+        <a href="./index.html#solutions" data-i18n="nav.solutions">Solutions</a>
+        <a href="./index.html#industries" data-i18n="nav.industries">Industries</a>
         <a class="active" href="./kaizen.html">Kaizen</a>
-        <a class="button button-small button-dark" href="mailto:anuj@seemara.com">Get in touch</a>
+        <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language">हिंदी</button>
+        <a class="button button-small button-dark" href="mailto:anuj@seemara.com" data-i18n="nav.contact">Get in touch</a>
       </nav>
       <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
     </header>
 
     <main id="main">
-      <section class="kaizen-hero section">
+      <section class="kaizen-product-hero section">
         <div class="kaizen-hero-copy">
-          <p class="eyebrow">A Seemara solution</p>
+          <p class="eyebrow" data-i18n="kaizen.hero.eyebrow">A Seemara product in progress</p>
           <div class="kaizen-title"><span class="kaizen-symbol large">K</span><h1>Kaizen</h1></div>
-          <h2>Give AI the context it needs to do great work.</h2>
-          <p>Kaizen turns scattered business knowledge into living organizational memory, then gives specialized agents the context they need to create, answer, automate, and improve.</p>
+          <h2 data-i18n="kaizen.hero.title">Turn your brand assets into Meta-ready ads.</h2>
+          <p data-i18n="kaizen.hero.copy">Kaizen learns your brand, maps your products, creates one sample creative, improves from your feedback, and then generates the videos, posters, captions, scripts, and ad copy you need.</p>
           <div class="hero-actions">
-            <a class="button button-dark" href="mailto:anuj@seemara.com?subject=I%27m%20interested%20in%20Kaizen">Talk to us about Kaizen <span aria-hidden="true">→</span></a>
-            <a class="text-link" href="https://github.com/spartaaaa4/kaizen">View the project <span aria-hidden="true">↗</span></a>
+            <a class="button button-dark" href="mailto:anuj@seemara.com?subject=I%27m%20interested%20in%20Kaizen" data-i18n="kaizen.hero.cta">Talk to us about Kaizen <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="https://github.com/spartaaaa4/kaizen" data-i18n="kaizen.hero.secondary">View project <span aria-hidden="true">↗</span></a>
           </div>
         </div>
-        <div class="memory-stage" aria-label="Kaizen context map">
-          <div class="memory-center"><span class="kaizen-symbol large">K</span><strong>Organization<br />Memory</strong></div>
-          <span class="memory-node node-one">Products</span>
-          <span class="memory-node node-two">Brand</span>
-          <span class="memory-node node-three">Customers</span>
-          <span class="memory-node node-four">Knowledge</span>
-          <span class="memory-node node-five">Creative</span>
-          <span class="memory-node node-six">Feedback</span>
+        <div class="ad-system-card" aria-label="Kaizen ad generation workflow">
+          <div class="mini-toolbar"><span></span><span></span><span></span></div>
+          <div class="asset-row"><strong data-i18n="kaizen.card.input">Inputs</strong><span>Website</span><span>Catalog</span><span>Photos</span><span>Reels</span></div>
+          <div class="memory-card"><small data-i18n="kaizen.card.memory.label">Kaizen builds</small><strong data-i18n="kaizen.card.memory.title">Brand Memory + Product Catalog</strong><p data-i18n="kaizen.card.memory.copy">Voice, colors, products, audience, offers, constraints, creative examples.</p></div>
+          <div class="output-card"><strong data-i18n="kaizen.card.output">Outputs</strong><span data-i18n="kaizen.card.output.copy">Video script · Poster prompt · Caption · Meta primary text · Headline · CTA</span></div>
         </div>
       </section>
 
-      <section class="problem-band section">
-        <p class="eyebrow light">The problem</p>
+      <section class="section problem-band">
+        <p class="eyebrow light" data-i18n="kaizen.problem.eyebrow">Why this matters</p>
         <div class="problem-grid">
-          <h2>AI without context is just guessing.</h2>
+          <h2 data-i18n="kaizen.problem.title">Most AI ads fail because they do not know the brand.</h2>
           <div class="prose light-prose">
-            <p>Every business has valuable knowledge, but it is usually spread across websites, PDFs, product catalogs, images, videos, campaigns, conversations, and team members.</p>
-            <p>Kaizen is being built to understand that context, make it reviewable, and help AI agents use it responsibly.</p>
+            <p data-i18n="kaizen.problem.p1">Small businesses already have context: websites, Instagram posts, product photos, PDFs, catalogs, customer messages, old campaigns, founder notes, and brand colors.</p>
+            <p data-i18n="kaizen.problem.p2">Kaizen is built to understand all of that first, then generate creative that feels like it belongs to the business.</p>
           </div>
         </div>
       </section>
 
-      <section class="section memory-section">
+      <section class="section kaizen-workflow-section">
         <div class="section-heading">
-          <p class="eyebrow">A living context layer</p>
-          <h2>Bring what you already have.</h2>
-          <p>Kaizen should meet organizations where their knowledge already lives, rather than asking them to start from a blank prompt.</p>
+          <p class="eyebrow" data-i18n="kaizen.workflow.eyebrow">The workflow</p>
+          <h2 data-i18n="kaizen.workflow.title">Sample first. Batch later.</h2>
+          <p data-i18n="kaizen.workflow.copy">Instead of generating ten random ads immediately, Kaizen creates one direction first, learns from your feedback, and then scales the campaign.</p>
         </div>
-        <div class="input-marquee" aria-label="Supported context inputs">
-          <span>Websites</span><span>PDFs</span><span>Catalogs</span><span>Images</span><span>Videos</span><span>Campaigns</span><span>Chat</span><span>Documents</span>
-        </div>
-        <div class="memory-grid">
-          <article><span class="card-label">01</span><h3>Brand Memory</h3><p>What the brand stands for, how it speaks, who it serves, what it looks like, and what it should avoid.</p></article>
-          <article><span class="card-label">02</span><h3>Product / Offer Catalog</h3><p>The products, services, collections, offers, benefits, objections, proof points, and creative angles worth promoting.</p></article>
-          <article><span class="card-label">03</span><h3>Creative Memory</h3><p>Previous ads, approved examples, rejected directions, feedback, and the patterns that make a brand feel like itself.</p></article>
-        </div>
-      </section>
-
-      <section class="section mac-section">
-        <div class="mac-heading">
-          <p class="eyebrow light">The first agent</p>
-          <h2>Meet Mac, the Kaizen Marketing Agent.</h2>
-          <p>Mac uses brand and product context to help D2C, ecommerce, and visual SME brands create marketing assets that feel considered rather than generic.</p>
-        </div>
-        <div class="mac-flow">
-          <div><span>01</span><strong>Understand the brand</strong><p>Website, catalog, assets, and existing campaigns become structured context.</p></div>
-          <div><span>02</span><strong>Create one sample</strong><p>Mac proposes a strong first creative direction before generating a large batch.</p></div>
-          <div><span>03</span><strong>Learn from feedback</strong><p>The brand approves, corrects, and shapes the creative preference.</p></div>
-          <div><span>04</span><strong>Scale the output</strong><p>Generate videos, posters, captions, scripts, and Meta-ready copy.</p></div>
+        <div class="kaizen-steps">
+          <article><span>01</span><h3 data-i18n="kaizen.step.one.title">Upload or share context</h3><p data-i18n="kaizen.step.one.copy">Website, catalog, photos, reels, PDFs, logo, colors, old ads, or simple answers.</p></article>
+          <article><span>02</span><h3 data-i18n="kaizen.step.two.title">Review Brand Memory</h3><p data-i18n="kaizen.step.two.copy">Kaizen extracts what you sell, who buys it, how you speak, and what your creative should avoid.</p></article>
+          <article><span>03</span><h3 data-i18n="kaizen.step.three.title">Generate one sample</h3><p data-i18n="kaizen.step.three.copy">You get one campaign direction with concept, script, visual prompt, caption, and Meta copy.</p></article>
+          <article><span>04</span><h3 data-i18n="kaizen.step.four.title">Improve and scale</h3><p data-i18n="kaizen.step.four.copy">Give feedback, define quantity and video duration, then generate the batch.</p></article>
         </div>
       </section>
 
       <section class="section outputs-section">
-        <div class="section-label">Marketing output</div>
+        <div class="section-label" data-i18n="kaizen.outputs.label">What you can create</div>
         <div class="outputs-grid">
-          <h2>More than a creative file. A complete campaign package.</h2>
+          <h2 data-i18n="kaizen.outputs.title">A complete creative package, not just a file.</h2>
           <div class="output-list">
-            <div><span>Video ads & reels</span><small>6s, 10s, 15s, 30s, custom</small></div>
-            <div><span>Posters & campaign images</span><small>Feed, story, square, catalog</small></div>
-            <div><span>Concepts, hooks & scripts</span><small>Product and offer-specific</small></div>
-            <div><span>Meta-ready copy</span><small>Captions, primary text, headlines, CTA</small></div>
+            <div><span data-i18n="kaizen.output.video">Video ads and reels</span><small data-i18n="kaizen.output.video.detail">6s, 10s, 15s, 30s, custom duration</small></div>
+            <div><span data-i18n="kaizen.output.poster">Posters and product images</span><small data-i18n="kaizen.output.poster.detail">Feed, story, square, catalog, offer creatives</small></div>
+            <div><span data-i18n="kaizen.output.script">Hooks, scripts, and scene plans</span><small data-i18n="kaizen.output.script.detail">Made for your product and audience</small></div>
+            <div><span data-i18n="kaizen.output.copy">Meta-ready ad copy</span><small data-i18n="kaizen.output.copy.detail">Primary text, headline, caption, CTA</small></div>
           </div>
         </div>
       </section>
 
+      <section class="section fit-section">
+        <p class="eyebrow" data-i18n="kaizen.fit.eyebrow">Best fit</p>
+        <h2 data-i18n="kaizen.fit.title">Made for visual businesses that need frequent creative.</h2>
+        <div class="industry-list centered">
+          <span data-i18n="kaizen.fit.d2c">D2C and ecommerce</span>
+          <span data-i18n="kaizen.fit.food">Restaurants and food brands</span>
+          <span data-i18n="kaizen.fit.clinics">Clinics and wellness</span>
+          <span data-i18n="kaizen.fit.beauty">Beauty, salons, and spas</span>
+          <span data-i18n="kaizen.fit.retail">Retail and local services</span>
+          <span data-i18n="kaizen.fit.agencies">Agencies and consultants</span>
+        </div>
+      </section>
+
       <section class="section beyond-section">
-        <p class="eyebrow">Beyond marketing</p>
-        <h2>One context foundation.<br />Many useful agents.</h2>
-        <p>Marketing is the first workflow because it is urgent, visual, and measurable. The deeper ambition is to give organizations a context layer that can power many kinds of work.</p>
-        <div class="beyond-list"><span>Catalog creation</span><span>Employee onboarding</span><span>GTM intelligence</span><span>Sales enablement</span><span>Customer support</span><span>Product education</span></div>
+        <p class="eyebrow" data-i18n="kaizen.beyond.eyebrow">Where Kaizen goes next</p>
+        <h2 data-i18n="kaizen.beyond.title">Marketing is the first wedge. Context is the real product.</h2>
+        <p data-i18n="kaizen.beyond.copy">The same Brand Memory and Organization Memory can later power catalog creation, onboarding agents, GTM agents, sales enablement, customer support, and internal knowledge workflows.</p>
+        <div class="beyond-list"><span data-i18n="kaizen.beyond.catalog">Catalog creation</span><span data-i18n="kaizen.beyond.onboarding">Onboarding agents</span><span data-i18n="kaizen.beyond.gtm">GTM agents</span><span data-i18n="kaizen.beyond.sales">Sales enablement</span><span data-i18n="kaizen.beyond.support">Support agents</span></div>
       </section>
 
       <section class="contact-section kaizen-contact">
-        <p class="eyebrow">Kaizen is being built now</p>
-        <h2>Interested in shaping it with us?</h2>
-        <p>We are speaking with brands and businesses that want better AI outputs without repeatedly explaining their context.</p>
+        <p class="eyebrow" data-i18n="kaizen.contact.eyebrow">Interested?</p>
+        <h2 data-i18n="kaizen.contact.title">Want Kaizen for your brand?</h2>
+        <p data-i18n="kaizen.contact.copy">Send us your website or product category. We will tell you what the first creative workflow could look like.</p>
         <a class="button button-dark" href="mailto:anuj@seemara.com?subject=I%27m%20interested%20in%20Kaizen">anuj@seemara.com <span aria-hidden="true">→</span></a>
       </section>
     </main>
 
     <footer class="site-footer">
       <a class="brand" href="./index.html"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>Seemara</span></a>
-      <p>Kaizen is a Seemara solution.</p>
+      <p data-i18n="footer.kaizen">Kaizen is a Seemara product.</p>
       <p>© <span data-year></span> Seemara</p>
     </footer>
     <script src="./script.js"></script>
