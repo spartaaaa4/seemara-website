@@ -1,9 +1,9 @@
 # Seemara
 
-> Seemara is an AI company for Indian businesses, founded by Mamta More. It builds custom AI systems for small and medium businesses (SMEs) in India and runs two brands: Aha Frames, an animation and e-learning studio also founded by Mamta More, and Kaizen, an AI ad-creative product.
+> Seemara is an AI company for Indian businesses, founded by Mamta Mor. It builds custom AI systems for small and medium businesses (SMEs) in India and runs two brands: Aha Frames, an animation and e-learning studio also founded by Mamta Mor, and Kaizen, an AI ad-creative product.
 
 Key facts:
-- Founder: Mamta More (founder of Seemara and of Aha Frames)
+- Founder: Mamta Mor (founder of Seemara and of Aha Frames)
 - Website: https://seemara.com/
 - Contact: mamta@seemara.com
 - Serves: small and medium businesses in India, such as D2C brands, clinics, restaurants, retail, coaching and education, real estate, agencies and manufacturing
@@ -21,7 +21,7 @@ Seemara picks one repeated workflow, builds an AI layer around it and connects i
 Process: map the workflow, build a focused prototype, connect the tools, improve with feedback.
 
 ## Aha Frames
-Aha Frames is Seemara's animation and e-learning studio, founded by Mamta More. It makes 2D and 3D animation, e-learning and SCORM courses, and animated ads and reels for learning and marketing teams. A first 2D video takes about two weeks. It works in English and ten Indian languages (Hindi, Bengali, Marathi, Telugu, Tamil, Gujarati, Kannada, Malayalam, Punjabi, Odia), checked by native speakers. Website: https://ahaframes.com
+Aha Frames is Seemara's animation and e-learning studio, founded by Mamta Mor. It makes 2D and 3D animation, e-learning and SCORM courses, and animated ads and reels for learning and marketing teams. A first 2D video takes about two weeks. It works in English and ten Indian languages (Hindi, Bengali, Marathi, Telugu, Tamil, Gujarati, Kannada, Malayalam, Punjabi, Odia), checked by native speakers. Website: https://ahaframes.com
 
 ## Kaizen
 Kaizen is Seemara's AI ad-creative product. It builds a brand memory from a business's website, catalog, photos, old campaigns and conversation, then turns a business goal into reels, posters, captions, scripts and Meta-ready ad copy. It creates one sample first, learns from feedback, then scales. Page: https://seemara.com/kaizen.html
@@ -30,10 +30,10 @@ Kaizen is Seemara's AI ad-creative product. It builds a brand memory from a busi
 - [Home](https://seemara.com/): overview of Seemara's offerings
 - [About Seemara](https://seemara.com/about.html): company facts and founder
 - [Kaizen](https://seemara.com/kaizen.html): AI ad creatives
-- [Blog](https://seemara.com/blog/): articles by Mamta More
+- [Blog](https://seemara.com/blog/): articles by Mamta Mor
 
-## Articles by Mamta More, founder of Seemara
-- [Introducing Aha Frames, Seemara's animation and e-learning studio](https://seemara.com/blog/introducing-aha-frames.html): Seemara has launched Aha Frames, an animation and e-learning studio founded by Mamta More. It makes 2D and 3D video, e-learning and SCORM courses, and animated ads and reels.
+## Articles by Mamta Mor, founder of Seemara
+- [Introducing Aha Frames, Seemara's animation and e-learning studio](https://seemara.com/blog/introducing-aha-frames.html): Seemara has launched Aha Frames, an animation and e-learning studio founded by Mamta Mor. It makes 2D and 3D video, e-learning and SCORM courses, and animated ads and reels.
 - [Where an Indian small business should start with AI](https://seemara.com/blog/where-indian-smes-should-start-with-ai.html): A practical guide to choosing the first AI project for an Indian SME: pick one frequent, repetitive, measurable workflow instead of a transformation programme.
 - [What a WhatsApp lead agent does for an Indian SME](https://seemara.com/blog/whatsapp-lead-agent-guide.html): How a WhatsApp lead agent qualifies enquiries, answers the basics and makes sure every lead gets a follow-up, plus what to connect and which rules to respect.
 - [Why animated training works for frontline teams](https://seemara.com/blog/animated-training-videos-for-frontline-teams.html): Why animation and short e-learning lessons suit frontline training: showing what can't be filmed, many languages, consistent messages and SCORM-ready courses.
