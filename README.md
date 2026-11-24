@@ -1,11 +1,22 @@
 # Seemara Website
 
-Public marketing website for Seemara, a bespoke AI studio building custom AI solutions for Indian small and medium businesses.
+Public marketing website for Seemara, an AI company founded by Mamta More. Seemara builds custom AI systems for Indian small and medium businesses and runs Aha Frames (animation and e-learning, https://ahaframes.com) and Kaizen (AI ad creatives).
 
 ## Pages
 
-- `index.html` - Seemara studio homepage
+- `index.html` - Homepage: offerings (custom AI systems, Aha Frames, Kaizen), founder, FAQ
+- `about.html` - Company facts and founder (the canonical "about" page for search and AI assistants)
 - `kaizen.html` - Kaizen product page
+- `blog/` - Blog index and articles by Mamta More
+
+## Search and AI-assistant readiness
+
+- `llms.txt` - plain-markdown summary of Seemara for AI assistants
+- `robots.txt` - welcomes search engines and AI crawlers, points to the sitemap
+- `sitemap.xml` - every public page; update it when you add an article
+- Every page carries schema.org JSON-LD: Organization (founder Mamta More), Aha Frames as a sub-organization, Person, BlogPosting and FAQPage
+
+Contact on every page: mamta@seemara.com
 
 ## Features
 
@@ -13,6 +24,7 @@ Public marketing website for Seemara, a bespoke AI studio building custom AI sol
 - English/Hindi language toggle
 - Buyer-focused solution sections for Indian SMEs
 - Dedicated Kaizen page
+- Blog with structured data
 - Vercel-ready with no build step
 
 ## Local Preview

@@ -18,7 +18,7 @@ Seemara should feel like a thoughtful studio that happens to be deeply technical
 - Engagement process: understand, build, integrate, improve
 - Featured solution: Kaizen
 - Future solution categories
-- Strong contact section linking to `mailto:anuj@seemara.com`
+- Strong contact section linking to `mailto:mamta@seemara.com`
 - English/Hindi language toggle
 
 ### Kaizen
